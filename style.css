@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}

@@ -12,15 +12,15 @@ function increaseDecrease() {
   var squareRigth = $(".rigth");
   var squareCenter = $(".center");
   var counter = $("span");
-  var i = 1;
+  var i = 0;
 
   squareLeft.click(function() {
-    counter.html(i++);
+    counter.html(++i);
     squareCenter.css("background-color", getRandomColor());
   });
 
   squareRigth.click(function() {
-    counter.html(i--);
+    counter.html(--i);
     squareCenter.css("background-color", getRandomColor());
   })
 }

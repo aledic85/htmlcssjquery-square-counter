@@ -9,7 +9,7 @@ function getRandomColor() {
 
 function increaseDecrease() {
   var squareLeft = $(".left");
-  var squareRigth = $(".rigth");
+  var squareRight = $(".right");
   var squareCenter = $(".center");
   var counter = $("span");
   var i = 0;
@@ -19,7 +19,7 @@ function increaseDecrease() {
     squareCenter.css("background-color", getRandomColor());
   });
 
-  squareRigth.click(function() {
+  squareRight.click(function() {
     counter.html(--i);
     squareCenter.css("background-color", getRandomColor());
   })
